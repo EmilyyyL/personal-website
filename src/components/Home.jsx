@@ -10,8 +10,8 @@ function Home() {
       <div className="home-nav">
           <NavLink className="home-nav-btn" to="/about">About</NavLink>
           <NavLink className="home-nav-btn" to="/projects">Projects</NavLink>
-          <a href="https://github.com/EmilyyyL" className="home-nav-btn">Github</a>
-          <a href="https://www.linkedin.com/in/emily-x-lu/" className="home-nav-btn">LinkedIn</a>
+          <a href="https://github.com/EmilyyyL" target="_blank" rel="noreferrer" className="home-nav-btn">Github</a>
+          <a href="https://www.linkedin.com/in/emily-x-lu/" target="_blank" rel="noreferrer" className="home-nav-btn">LinkedIn</a>
       </div>
     </div>
   );

@@ -3,5 +3,4 @@ export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
 export { default as About } from "./About";
 export { default as Projects } from "./projects/Projects";
-export { default as Posts } from "./projects/Posts";
 export { default as Post } from "./projects/Post";

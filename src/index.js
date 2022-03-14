@@ -8,7 +8,6 @@ import {
   Home,
   About,
   Projects,
-  Posts,
   Post,
 } from "./components";
 
@@ -20,15 +19,18 @@ ReactDOM.render(
     {/* Navigation bar to appear on pages except home*/}
     <Routes>
       <Route path="/about" element={<Navigation />} />
-      <Route path="/blog" element={<Navigation />} />
+      <Route path="/projects" element={<Navigation />}>
+        <Route path="" element={<Projects />} />
+        <Route path=":postSlug" element={<Post />} />
+      </Route>
     </Routes>
 
     {/* Other pages */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/projects" element={<Projects />}>
-        <Route path="" element={<Posts />} />
+      <Route path="/projects">
+        <Route path="" element={<Projects />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
     </Routes>

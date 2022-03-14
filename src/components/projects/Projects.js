@@ -1,14 +1,77 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <div className="home">
-      <div class="container">
-        <h1 className="text-center mt-5">Projects page</h1>
-        <Outlet />
+      <div class="projects container">
+        <h1>Projects</h1>
+        <p>Here are some of the projects I have worked on over the years.</p>
+
+        <Link to="/projects/emfie" className="post-text">
+          <div className="post-preview">
+            <div>
+              <h2>emfie</h2>
+              <p>
+                That's the website you're looking at right now. I finally built
+                a website to showcase some of the projects I have worked on and
+                tell the stories behind them. 
+              </p>
+              <p className="read-more">Read more</p>
+            </div>
+            <img src="emfie-green.png" alt="emfie" className="post-preview-img"></img>
+          </div>
+        </Link>
+
+        <Link to="/projects/remobi-toolkit" className="post-text">
+          <div className="post-preview">
+            <div>
+              <h2>Remobi Toolkit</h2> 
+              <p>
+                Remobi Toolkit is a chrome extension my team built for Unihack's
+                2022 Imagination Hackathon. It is a work from home toolkit with 5 different features
+                each with a unique purpose but they all work together to make the 
+                work from home experience better. 
+              </p>
+              <p className="read-more">Read more</p>
+            </div>
+            <img src="remobi-toolkit.png" alt="Remobi Toolkit" className="post-preview-img"></img>
+          </div>
+        </Link>
+
+        <Link to="/projects/brodify" className="post-text">
+          <div className="post-preview">
+            <div>
+              <h2>Brodify</h2>
+              <p>
+                Brodify is a productivity website that was built with a couple 
+                of friends for a personal projects competition. The intial idea 
+                was a productivity website that gamifies tasks and encourages 
+                studying with friends with the aim making studying feel less 
+                isolating escpecially during lockdown. 
+              </p>
+              <p className="read-more">Read more</p>
+            </div>
+            <img src="brodify.png" alt="Brodify" id="brody" className="post-preview-img"></img>
+          </div>
+        </Link>
+
+        <Link to="/projects/plant-project" className="post-text">
+          <div className="post-preview">
+            <div>
+              <h2>Plant Project</h2>
+              <p>
+                Plant Project is the name of the first website I ever finished 
+                building. However, this website is not deployed so I have just 
+                re-built the quiz I made for that website here so it can be 
+                accessed by everyone. 
+              </p>
+              <p className="read-more">Read more</p>
+            </div>
+            <img src="emfie-green.png" alt="emfie" className="post-preview-img"></img>
+          </div>
+        </Link>
+
       </div>
-    </div>
   );
 }
 
