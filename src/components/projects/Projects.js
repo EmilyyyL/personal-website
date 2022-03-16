@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-      <div class="projects container">
+      <div className="projects container">
         <h1>Projects</h1>
         <p>Here are some of the projects I have worked on over the years.</p>
 
