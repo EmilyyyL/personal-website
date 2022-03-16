@@ -67,7 +67,7 @@ function Projects() {
               </p>
               <p className="read-more">Read more</p>
             </div>
-            <img src="emfie-green.png" alt="emfie" className="post-preview-img"></img>
+            <img src="plant-project.png" alt="plant project" className="post-preview-img"></img>
           </div>
         </Link>
 
