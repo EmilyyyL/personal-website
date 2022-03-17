@@ -168,7 +168,15 @@ p {
     color: #4a5759;
 }
 
-#brody{
+#brody {
     background-color: #9f97ca;
     border-radius: 0.5em;
+}
+
+.back-link {
+    display: block;
+    text-decoration: none;
+    color: #4A5759;
+    text-align: center;
+    font-size: 1.2em;
 }

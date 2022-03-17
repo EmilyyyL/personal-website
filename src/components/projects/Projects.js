@@ -60,10 +60,9 @@ function Projects() {
             <div>
               <h2>Plant Project</h2>
               <p>
-                Plant Project is the name of the first website I ever finished 
-                building. However, this website is not deployed so I have just 
-                re-built the quiz I made for that website here so it can be 
-                accessed by everyone. 
+                Plant Project is the a website I built in Year 10 for an assignment.
+                That is the only website I could say I finished building. Since
+                that website is not deployed, I want to share the content of that website here. 
               </p>
               <p className="read-more">Read more</p>
             </div>

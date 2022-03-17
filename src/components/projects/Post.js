@@ -13,6 +13,7 @@ function Post() {
     return (
       <div class="container">
         <h1>emfie</h1>
+        <Link to="/projects" className="back-link">Back to projects</Link>
         <p>Source code: <a href="https://github.com/EmilyyyL/personal-website" target="_blank" rel="noreferrer">EmilyyyL/personal-website</a></p>
         <p>
           I have wanted to make a personal website for quite a while now, but 
@@ -30,8 +31,8 @@ function Post() {
           website, I decided to take on a new challenge and built it using React. 
           I followed 
           <a href="https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/" className="inline-links"> this </a>
-          tutorial, and I don’t completely understand everything yet, so 
-          any improvements and suggestions will be greatly appreciated. 
+          tutorial. I know there is a lot that can be improved with this website
+          but that's something 
         </p>
         <p>
           One of the reasons I waited so long to start this project is because 
@@ -69,6 +70,7 @@ function Post() {
           wanted to highlight the achievements and skills I gained from working 
           on those projects. So here I am. 
         </p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
   }
@@ -77,8 +79,29 @@ function Post() {
     return (
       <div className="container">
         <h1>Remobi Toolkit</h1>
-        <p>Devpost Submission <a href="e" target="_blank" rel="noreferrer">Remobi Toolkit Devpost</a></p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
+        <p>Devpost Submission <a href="https://devpost.com/software/remobi-toolkit" target="_blank" rel="noreferrer">Remobi Toolkit Devpost</a></p>
         <p>Source code: <a href="https://github.com/Dhruv-A/UNIHACK2022" target="_blank" rel="noreferrer">UNIHACK 2022</a></p>
+        <p>
+          Remobi Toolkit is a chrome extension my team built for a hackathon.
+          We wanted to create something that had different tools to enhance the 
+          working from home experience including tools to revive the social aspect 
+          of working in an office, improve wellbeing, assist with focusing on task, 
+          help with keep track of meetings and provide a convenient place to write 
+          down quick notes. We also wanted this toolkit to be easily accessible 
+          by everyone, so we built a chrome extension. 
+        </p>
+        <p>
+          However, this being our first hackathon for most of us and many of us 
+          having commitments over the weekend, we struggled a lot with time 
+          management. I built as much of the frontend as I could using HTML/CSS 
+          following my teammates’ designs on Figma. I had around 20 minutes to 
+          put together the pitch video so it’s not a very good quality pitch video. 
+        </p>
+        <p>
+          More about this project can be found in the Devpost submission above.  
+        </p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
   }
@@ -87,6 +110,10 @@ function Post() {
     return (
       <div className="container">
         <h1>Brodify</h1>
+        <Link to="/projects" className="back-link">Back to projects</Link>
+        <p>Website <a href="https://personal-project-2021.web.app/" target="_blank" rel="noreferrer">Brodify</a></p>
+        <p>Source code: <a href="https://github.com/EmilyyyL/Brodify" target="_blank" rel="noreferrer">EmilyyyL/Brodify</a></p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
   }
@@ -95,7 +122,9 @@ function Post() {
     return (
       <div className="container">
         <h1>Plant Project</h1>
-        <Link to="/"></Link>
+        <Link to="/projects" className="back-link">Back to projects</Link>
+        <p>work in progress</p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
   }
@@ -104,10 +133,20 @@ function Post() {
     return (
       <div className="container">
         <h1>[Article] Imposter Syndrome</h1>
+        <Link to="/projects" className="back-link">Back to projects</Link>
         <p>Secret article that I will get around to writing soon.</p>
+        <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
   }
+
+  return (
+    <div className="container">
+      <h1>This project does not exist.</h1>
+      <p style={{textAlign: "center"}}>Why are you here?</p>
+      <Link to="/projects" className="back-link">Back to projects</Link>
+    </div>
+  );
  
 }
 
