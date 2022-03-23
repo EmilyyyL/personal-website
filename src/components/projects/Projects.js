@@ -55,21 +55,6 @@ function Projects() {
           </div>
         </Link>
 
-        <Link to="/projects/plant-project" className="post-text">
-          <div className="post-preview">
-            <div>
-              <h2>Plant Project</h2>
-              <p>
-                Plant Project is the a website I built in Year 10 for an assignment.
-                That is the only website I could say I finished building. Since
-                that website is not deployed, I want to share the content of that website here. 
-              </p>
-              <p className="read-more">Read more</p>
-            </div>
-            <img src="plant-project.png" alt="plant project" className="post-preview-img"></img>
-          </div>
-        </Link>
-
       </div>
   );
 }

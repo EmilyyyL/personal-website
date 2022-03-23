@@ -112,17 +112,21 @@ function Post() {
         <Link to="/projects" className="back-link">Back to projects</Link>
         <p>Website <a href="https://personal-project-2021.web.app/" target="_blank" rel="noreferrer">Brodify</a></p>
         <p>Source code: <a href="https://github.com/EmilyyyL/Brodify" target="_blank" rel="noreferrer">EmilyyyL/Brodify</a></p>
-        <Link to="/projects" className="back-link">Back to projects</Link>
-      </div>
-    );
-  }
-
-  if (postSlug === "plant-project") {
-    return (
-      <div className="container">
-        <h1>Plant Project</h1>
-        <Link to="/projects" className="back-link">Back to projects</Link>
-        <p>work in progress</p>
+        <p>
+          This is a project I worked on with 3 other friends for a personal project competition. The initial idea was to have a gamified to-do list that will engage the users by having them collect points for the task they complete and then use those points to purchase upgrades for a character. We also wanted to incorporate a video chat function to encourage study groups. 
+        </p>
+        <p>
+          The competition lasted 3 months. We figured out what kind of project we wanted to do quite early on. The next step is to figure out how to develop our project. I was researching what to use for our backend and I came across Firebase. Firebase has tools for authentication, database and hosting which is everything we needed and there were plenty of tutorials on YouTube on how to use Firebase. So, we decided to go with firebase. 
+        </p>
+        <p>
+          This was our first time working on a software project together. The only prior experience I had with project development was how to use HTML and CSS and some knowledge of project management from the IPT (Information Processes and Technology) course back in high school. We did not even know how to use git to its fullest potential. 
+        </p>
+        <p>
+          Over the next few months, we were learning how to use HTML/CSS and JavaScript. Soon we started getting busy with uni and did not work on the project much. I was quite certain that we would not have anything to submit for this competition, but everyone pulled through in the last few weeks and we were able to submit our project for the competition. Even though we did not implement everything we wanted or win anything in this competition, we all picked up a few new skills along the way. 
+        </p>
+        <p>
+          For this project, I was able to fully implement an email and password based authentication system that is linked with the database which stores all of the users’ personal information and to-do list items. I also implemented email verification as well as user settings which allows the user to update their personal information. 
+        </p>
         <Link to="/projects" className="back-link">Back to projects</Link>
       </div>
     );
