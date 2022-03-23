@@ -31,8 +31,7 @@ function Post() {
           website, I decided to take on a new challenge and built it using React. 
           I followed 
           <a href="https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/" className="inline-links"> this </a>
-          tutorial. I know there is a lot that can be improved with this website
-          but that's something 
+          tutorial. This website is a work in progress.
         </p>
         <p>
           One of the reasons I waited so long to start this project is because 
@@ -129,21 +128,9 @@ function Post() {
     );
   }
 
-  if (postSlug === "imposter-syndrome") {
-    return (
-      <div className="container">
-        <h1>[Article] Imposter Syndrome</h1>
-        <Link to="/projects" className="back-link">Back to projects</Link>
-        <p>Secret article that I will get around to writing soon.</p>
-        <Link to="/projects" className="back-link">Back to projects</Link>
-      </div>
-    );
-  }
-
   return (
     <div className="container">
-      <h1>This project does not exist.</h1>
-      <p style={{textAlign: "center"}}>Why are you here?</p>
+      <h1>404 Not Found</h1>
       <Link to="/projects" className="back-link">Back to projects</Link>
     </div>
   );
