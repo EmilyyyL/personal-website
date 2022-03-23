@@ -1,3 +1,3 @@
 Emfie
 
-Personal website showcasing past projects.
+A personal website showcasing past projects built using React.
