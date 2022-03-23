@@ -17,15 +17,16 @@ ReactDOM.render(
   <Router>
     
     {/* Navigation bar to appear on pages except home*/}
-    <Routes>
+    {/* <Routes>
       <Route path="/about" element={<Navigation />} />
       <Route path="/projects" element={<Navigation />}>
         <Route path="" element={<Projects />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
-    </Routes>
+    </Routes> */}
 
     {/* Other pages */}
+    <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

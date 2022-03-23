@@ -7,8 +7,7 @@ function About() {
         <h2>Hello.</h2>
         <p className="text">
           My name is Emily. I am a second year university student 
-          studying computer science at the University of New South Wales 
-          (UNSW). I will be using this website to showcase all the projects 
+          studying Computer Science. I will be using this website to showcase all the projects 
           I have done throughout the years and tell the stories behind them. 
         </p>
         <br/>
@@ -19,8 +18,6 @@ function About() {
           and my dog's name, Alfie. Since this domain name was avaliable, 
           I decided turn emfie into my personal website where I can share my work. 
         </p>
-        <p className="text">Here is a picture of Alfie. </p>
-        <img src="alfie.jpg" alt="Alfie" className="alfie"></img>
       </div>
   );
 }
